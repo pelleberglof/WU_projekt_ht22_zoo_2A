@@ -1,94 +1,90 @@
-#top{
-    color: rgba(45, 95, 34, 0.887);
-justify-content: center;
-display: flex;
+.topnav {
+    background: image(img.tiger) ;
+    background-color:#d17c21;
+    overflow: auto;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: rgb(255, 236, 214);
+    color: black;
+    border-radius: 5%;
+}
+#tiger{
+height: auto;
+width: 65%;
 }
 #hed{
-    color: blue;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    display: flex;
+    font-family: 'Noto Nastaliq Urdu', serif;
+}
+#top{
     justify-content: center;
     display: flex;
 }
-
-.container{
-grid-template-areas: ;
-
+.text{
+    position: relative
+    absolute
 }
-
-
-*{background-color: rgb(148, 226, 218);}
-
 body{
-    background-color: rgb(93, 87, 78);
+    background-color:#d17c21;
 }
-
-#wrapper{
-    width:500px;
-    grid-template-columns: max-content;
-    height: 300px;
-    grid-gap: 20px;
-    margin: auto;
-    display: grid;
-    border-radius: 15px;
-
-    grid-template-areas: 
-    "hd hd hd"
-    "hd hd hd"
-    "ft as mi"
-    "ft as mi"
-    ;
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
 }
-
-header {
-    background-color: aqua;
-    grid-area: hd;
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-
-main {
-    background-color: rgb(0, 255, 136);
-    grid-area: mi;
+.container {
+    padding: 1px ;
 }
-
-aside{
-    background-color: blueviolet;
-    grid-area: as;
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
 }
-
-footer {
-    background-color: brown;
-    grid-area: ft;
+top{
+    font-family: 'Noto Nastaliq Urdu', serif;  
 }
-
-* {
-    margin: 0;
-    }
-
-    #card{
+#bild{
+    border-radius: 1%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+.card{
+    width:300px;
+    text-align: center;
+    font-family: 'Noto Nastaliq Urdu', serif;
+}
+.cards {
+    background-color: #fdd7b9;
     display: flex;
     flex-wrap: wrap;
-    }
-
-    .arttical_person{
-    height: 300px;
-    width: 100px;
-    border: 1px;
-    border-radius: 10px;
-    margin: 15px;
-    ba
-    }
-    
-    .article_naman{
-    background: url(img);''
-    background-size: content: ;;
-    
-    }
-    
-    p {
-        display: flex;
-        justify-content: center;
-    }
-
-    .box {
-        display: flex;
-        justify-content: space-between;
-      }
-
+    justify-content: space-between ;
+    padding: 14px 16px;
+ }
+ .cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+}    
+    &amp;amp;nbsp; 
+}
+p {
+    display: flex;
+   justify-content: center;
+}
+p {
+    font-size: 2rem;
+    text-align: center;
+}
